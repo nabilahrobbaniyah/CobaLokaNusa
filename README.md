@@ -1,3 +1,4 @@
+'''mermaid
 graph LR
     Customer[Pelanggan] -->|HTTP Request| Gateway[API Gateway]
 
@@ -26,3 +27,4 @@ graph LR
     Broker -->|Subscribe: CourierAssigned| NotifSvc[Notification Service]
 
     NotifSvc -->|Push Notification| Customer
+'''
